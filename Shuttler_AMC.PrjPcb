@@ -44,7 +44,7 @@ ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
 DocumentPath=CPU_LPC1776.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -60,27 +60,10 @@ GenerateClassCluster=0
 DocumentUniqueId=KXLPKTKX
 
 [Document2]
-DocumentPath=FPGA.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=39
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OKJLKYPM
-
-[Document3]
 DocumentPath=ETH_PHY_RMII.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=38
@@ -93,9 +76,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YVVUMBMS
 
-[Document4]
+[Document3]
 DocumentPath=clk_supply.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -110,9 +93,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FSAGBGNI
 
-[Document5]
+[Document4]
 DocumentPath=DAC_supply.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -127,11 +110,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XDLNXHSP
 
-[Document6]
+[Document5]
 DocumentPath=Clk_recovery.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=34
@@ -144,9 +127,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VHQRIXOV
 
-[Document7]
+[Document6]
 DocumentPath=Clock_Distribution_PLL.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -161,9 +144,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XTSDHNBI
 
-[Document8]
+[Document7]
 DocumentPath=DACs.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -178,11 +161,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HDASYFGU
 
-[Document9]
+[Document8]
 DocumentPath=DAC_LTC2000.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=1000
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=5
@@ -195,9 +178,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WUCTPDNO
 
-[Document10]
+[Document9]
 DocumentPath=QSFP.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -212,9 +195,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FQAMLQQY
 
-[Document11]
+[Document10]
 DocumentPath=Shuttler_AMC.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -229,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OVCLCCMA
 
-[Document12]
+[Document11]
 DocumentPath=Shuttler_AMC.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -246,11 +229,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OQRSULKQ
 
-[Document13]
+[Document12]
 DocumentPath=USB_SERIAL_QUAD.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=37
@@ -263,9 +246,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LBSVYGUO
 
-[Document14]
+[Document13]
 DocumentPath=Thermometers.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -280,11 +263,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EJIADKFG
 
-[Document15]
+[Document14]
 DocumentPath=SDRAM_DDR3_4x16.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=31
@@ -297,26 +280,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MORYWYEP
 
-[Document16]
-DocumentPath=PWR_DC_DC_EXAR.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=27
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HOSJJNHQ
-
-[Document17]
+[Document15]
 DocumentPath=PWR_0V9_20A.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -331,9 +297,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UJKIUMGV
 
-[Document18]
+[Document16]
 DocumentPath=POWER_Management.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -348,9 +314,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CDBRFQVO
 
-[Document19]
+[Document17]
 DocumentPath=M-LVDS_PHY.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -365,9 +331,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VDUIJEYF
 
-[Document20]
+[Document18]
 DocumentPath=JTAG_Configuration.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -382,9 +348,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KRCDEMWB
 
-[Document21]
+[Document19]
 DocumentPath=I2C_MUX.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -399,9 +365,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YUEUSUBS
 
-[Document22]
+[Document20]
 DocumentPath=FPGA_Bank_0_CFG.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -416,9 +382,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UVPNYUSL
 
-[Document23]
+[Document21]
 DocumentPath=FPGA_Banks_44_45_46_DDR64.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -433,9 +399,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ILJYVGBW
 
-[Document24]
+[Document22]
 DocumentPath=AMC_Connector.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -450,7 +416,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KWXBPOWO
 
-[Document25]
+[Document23]
 DocumentPath=..\Lib\TP_LIB.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -467,7 +433,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YAKDKDCG
 
-[Document26]
+[Document24]
 DocumentPath=AMC_Connector.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -484,7 +450,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document25]
 DocumentPath=I2C_MUX.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -501,7 +467,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document26]
 DocumentPath=JTAG_Configuration.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -518,7 +484,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document27]
 DocumentPath=M-LVDS_PHY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -535,7 +501,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document28]
 DocumentPath=POWER_Management.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -552,24 +518,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
-DocumentPath=PWR_DC_DC_EXAR.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document32]
+[Document29]
 DocumentPath=SDRAM_DDR3_4x16.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -586,7 +535,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document33]
+[Document30]
 DocumentPath=Thermometers.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -603,7 +552,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
+[Document31]
 DocumentPath=USB_SERIAL_QUAD.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -620,24 +569,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document35]
-DocumentPath=Shuttler_AMC.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document36]
+[Document32]
 DocumentPath=QSFP.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -654,7 +586,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document37]
+[Document33]
 DocumentPath=DAC_LTC2000.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -671,7 +603,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document38]
+[Document34]
 DocumentPath=DACs.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -688,7 +620,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document39]
+[Document35]
 DocumentPath=Clock_Distribution_PLL.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -705,9 +637,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document40]
+[Document36]
 DocumentPath=FPGA_Banks_47_48_HP.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -722,9 +654,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FXSFEQUJ
 
-[Document41]
+[Document37]
 DocumentPath=FPGA_Banks_64_65_HR.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -739,9 +671,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CGVOHKHP
 
-[Document42]
+[Document38]
 DocumentPath=FPGA_Bank_66_HP.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -756,7 +688,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WQQUVAGE
 
-[Document43]
+[Document39]
 DocumentPath=FPGA_Banks_44_45_46_DDR64.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -773,9 +705,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document44]
+[Document40]
 DocumentPath=FPGA_Banks_67_68.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -790,9 +722,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LULVOVDV
 
-[Document45]
+[Document41]
 DocumentPath=FPGA_Banks_GTH.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -807,9 +739,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MWMWIPKW
 
-[Document46]
+[Document42]
 DocumentPath=FPGA_Power.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -824,9 +756,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OYLWINES
 
-[Document47]
+[Document43]
 DocumentPath=FPGA_Decoupling.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -841,9 +773,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RMUTLWIS
 
-[Document48]
+[Document44]
 DocumentPath=FPGA_GND_NC.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -858,7 +790,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MYYXRLTY
 
-[Document49]
+[Document45]
 DocumentPath=FPGA_Banks_GTH.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -875,24 +807,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document50]
-DocumentPath=FPGA.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document51]
+[Document46]
 DocumentPath=Clk_recovery.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -909,11 +824,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document52]
+[Document47]
 DocumentPath=Amplifier.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=0
+AnnotateStartValue=1000
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=48
@@ -926,7 +841,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IMUUGPRT
 
-[Document53]
+[Document48]
 DocumentPath=CPU_LPC1776.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -943,7 +858,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document54]
+[Document49]
 DocumentPath=FPGA_Bank_0_CFG.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -960,7 +875,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document55]
+[Document50]
 DocumentPath=FPGA_Banks_64_65_HR.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -977,9 +892,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document56]
+[Document51]
 DocumentPath=PWR_P3V0_N3V0.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -994,9 +909,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XYBYRBOT
 
-[Document57]
+[Document52]
 DocumentPath=PWR_Buck_4V_20A.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -1011,9 +926,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LWPDDHGD
 
-[Document58]
+[Document53]
 DocumentPath=PWR_Buck_P2V5_8A.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -1028,7 +943,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UODABOIB
 
-[Document59]
+[Document54]
 DocumentPath=ETH_PHY_RMII.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1045,9 +960,9 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document60]
+[Document55]
 DocumentPath=IO_Connectors.SchDoc
-AnnotationEnabled=1
+AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
@@ -1062,7 +977,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EVDQUIAI
 
-[Document61]
+[Document56]
 DocumentPath=Shuttler_AMC.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1078,6 +993,238 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document57]
+DocumentPath=DDMTD.SchDoc
+AnnotationEnabled=0
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=53
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YKQQIXXS
+
+[Document58]
+DocumentPath=DDMTD.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document59]
+DocumentPath=Shuttler_AMC.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document60]
+DocumentPath=PWR_DC_DC_EXAR2.SchDoc
+AnnotationEnabled=0
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=54
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QTMURSNG
+
+[Document61]
+DocumentPath=PWR_DC_DC_EXAR2.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document62]
+DocumentPath=QUAD_BUCK.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=55
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YYLQEKDK
+
+[ProjectVariant1]
+UniqueID=9A4828A7-25AA-4545-92C6-53CB34D49FBE
+Description=Default
+AllowFabrication=0
+ParameterCount=0
+VariationCount=56
+Variation1=Designator=R491|UniqueId=\AOOBOWPX\VVBNCIFE\SPWASJJJ\QAVRGHKG|Kind=1|AlternatePart= 
+Variation2=Designator=R54|UniqueId=\DDCGWLIE\EBENLDRS|Kind=1|AlternatePart= 
+Variation3=Designator=R66|UniqueId=\DDCGWLIE\JUFAKZUZ|Kind=1|AlternatePart= 
+Variation4=Designator=R67|UniqueId=\DDCGWLIE\OZLZJION|Kind=1|AlternatePart= 
+Variation5=Designator=R69|UniqueId=\DDCGWLIE\GDRDFKNB|Kind=1|AlternatePart= 
+Variation6=Designator=IC54|UniqueId=\YORDAIWY|Kind=1|AlternatePart= 
+Variation7=Designator=C593|UniqueId=\QFDHWDGC\PMXXCOXQ|Kind=1|AlternatePart= 
+Variation8=Designator=R354|UniqueId=\QFDHWDGC\IXIWURPU|Kind=1|AlternatePart= 
+Variation9=Designator=C718|UniqueId=\QFDHWDGC\CNOHIVQA|Kind=1|AlternatePart= 
+Variation10=Designator=C723|UniqueId=\QFDHWDGC\DOWEYQSS|Kind=1|AlternatePart= 
+Variation11=Designator=C724|UniqueId=\QFDHWDGC\PTDBATWT|Kind=1|AlternatePart= 
+Variation12=Designator=C486|UniqueId=\NHRTREKO\IODJMSTL|Kind=1|AlternatePart= 
+Variation13=Designator=C494|UniqueId=\NHRTREKO\ADGONPAD|Kind=1|AlternatePart= 
+Variation14=Designator=R401|UniqueId=\NHRTREKO\LMJCROPD|Kind=1|AlternatePart= 
+Variation15=Designator=R372|UniqueId=\NHRTREKO\AFKTEOWV|Kind=1|AlternatePart= 
+Variation16=Designator=R377|UniqueId=\NHRTREKO\HVTJAFHD|Kind=1|AlternatePart= 
+Variation17=Designator=R383|UniqueId=\NHRTREKO\EFCIXEZY|Kind=1|AlternatePart= 
+Variation18=Designator=C594|UniqueId=\NHRTREKO\GBVSYAVU|Kind=1|AlternatePart= 
+Variation19=Designator=C590|UniqueId=\NHRTREKO\FAJMWOVQ|Kind=1|AlternatePart= 
+Variation20=Designator=R392|UniqueId=\NHRTREKO\UMWEFVOR|Kind=1|AlternatePart= 
+Variation21=Designator=R400|UniqueId=\NHRTREKO\CVSWPDSN|Kind=1|AlternatePart= 
+Variation22=Designator=R399|UniqueId=\NHRTREKO\RZFKKCHU|Kind=1|AlternatePart= 
+Variation23=Designator=R402|UniqueId=\NHRTREKO\RFMQIZTG|Kind=1|AlternatePart= 
+Variation24=Designator=C701|UniqueId=\NHRTREKO\SEXFHPNX\IXBMTBCD|Kind=1|AlternatePart= 
+Variation25=Designator=R465|UniqueId=\NHRTREKO\SEXFHPNX\HILMFLGT|Kind=1|AlternatePart= 
+Variation26=Designator=R466|UniqueId=\NHRTREKO\SEXFHPNX\TGORRPOT|Kind=1|AlternatePart= 
+Variation27=Designator=R468|UniqueId=\NHRTREKO\SEXFHPNX\VFCCIBXI|Kind=1|AlternatePart= 
+Variation28=Designator=R478|UniqueId=\NHRTREKO\SEXFHPNX\FDOGFDJQ|Kind=1|AlternatePart= 
+Variation29=Designator=C700|UniqueId=\NHRTREKO\SEXFHPNX\RZQVBTXQ|Kind=1|AlternatePart= 
+Variation30=Designator=R486|UniqueId=\NHRTREKO\SEXFHPNX\XURBDPTF|Kind=1|AlternatePart= 
+Variation31=Designator=R509|UniqueId=\NHRTREKO\SEXFHPNX\AEZRXJBL|Kind=1|AlternatePart= 
+Variation32=Designator=R518|UniqueId=\NHRTREKO\SEXFHPNX\QRAOPJDU|Kind=1|AlternatePart= 
+Variation33=Designator=R520|UniqueId=\NHRTREKO\SEXFHPNX\RXDDTEMA|Kind=1|AlternatePart= 
+Variation34=Designator=C733|UniqueId=\NHRTREKO\SEXFHPNX\DVSFGLXW|Kind=1|AlternatePart= 
+Variation35=Designator=R471|UniqueId=\AOOBOWPX\NGLLERHY\XBOTGDWH|Kind=1|AlternatePart= 
+Variation36=Designator=IC72|UniqueId=\AOOBOWPX\VVBNCIFE\TUVAQQMZ|Kind=1|AlternatePart= 
+Variation37=Designator=L48|UniqueId=\AOOBOWPX\VVBNCIFE\UXHACSEB|Kind=1|AlternatePart= 
+Variation38=Designator=W2|UniqueId=\AOOBOWPX\VVBNCIFE\RCRYNYQO|Kind=1|AlternatePart= 
+Variation39=Designator=MOD1|UniqueId=\AOOBOWPX\VVBNCIFE\CDKGPETO|Kind=1|AlternatePart= 
+Variation40=Designator=C110|UniqueId=\AOOBOWPX\VVBNCIFE\TIKUQLPF|Kind=1|AlternatePart= 
+Variation41=Designator=C112|UniqueId=\AOOBOWPX\VVBNCIFE\JMRCXNMF|Kind=1|AlternatePart= 
+Variation42=Designator=C113|UniqueId=\AOOBOWPX\VVBNCIFE\JMRMFWTY|Kind=1|AlternatePart= 
+Variation43=Designator=C114|UniqueId=\AOOBOWPX\VVBNCIFE\OCIMPMVM|Kind=1|AlternatePart= 
+Variation44=Designator=R488|UniqueId=\AOOBOWPX\VVBNCIFE\SPWASJJJ\LGLIPXOC|Kind=1|AlternatePart= 
+Variation45=Designator=R481|UniqueId=\AOOBOWPX\VVBNCIFE\SPWASJJJ\AFKHHWJD|Kind=1|AlternatePart= 
+Variation46=Designator=R422|UniqueId=\AOOBOWPX\VVBNCIFE\SPWASJJJ\OJLGSQHB|Kind=1|AlternatePart= 
+Variation47=Designator=R119|UniqueId=\IMWXTNYK\FJBIKXQB|Kind=1|AlternatePart= 
+Variation48=Designator=R172|UniqueId=\IMWXTNYK\IHFWFSIR|Kind=1|AlternatePart= 
+Variation49=Designator=R208|UniqueId=\IMWXTNYK\VTYYEHDJ|Kind=1|AlternatePart= 
+Variation50=Designator=R108|UniqueId=\IMWXTNYK\KVVGPVJH|Kind=1|AlternatePart= 
+Variation51=Designator=R111|UniqueId=\IMWXTNYK\ZUYPUKAF|Kind=1|AlternatePart= 
+Variation52=Designator=R114|UniqueId=\IMWXTNYK\VIVJHNCM|Kind=1|AlternatePart= 
+Variation53=Designator=OSC3|UniqueId=\GOOIBGQW\UCAORJJU|Kind=1|AlternatePart= 
+Variation54=Designator=C713|UniqueId=\GOOIBGQW\HUNDHCAV|Kind=1|AlternatePart= 
+Variation55=Designator=C714|UniqueId=\GOOIBGQW\UFTXURIO|Kind=1|AlternatePart= 
+Variation56=Designator=C589|UniqueId=\QFDHWDGC\GODNKCZJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Capacitors.DbLib/Capacitors SMD|AltLibLink_SymbolReference=Capacitor - non polarized|AltLibLink_DesignItemID=CC0402_1UF_16V_10%_X5R|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Capacitors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Capacitors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=CAPC1005X55N|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue==Value
+ParamDesignator1=C589
+ParamVariation2=ParameterName=Case|VariantValue=0402
+ParamDesignator2=C589
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=C589
+ParamVariation4=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator4=C589
+ParamVariation5=ParameterName=CreateDate|VariantValue=25.10.2012
+ParamDesignator5=C589
+ParamVariation6=ParameterName=Database Table Name|VariantValue=Capacitors SMD
+ParamDesignator6=C589
+ParamVariation7=ParameterName=Description|VariantValue=Non-polarised capacitor
+ParamDesignator7=C589
+ParamVariation8=ParameterName=Footprint|VariantValue=CAPC1005X55N
+ParamDesignator8=C589
+ParamVariation9=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\CC0402_X5R_TDK_C.pdf
+ParamDesignator9=C589
+ParamVariation10=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator10=C589
+ParamVariation11=ParameterName=LatestRevisionDate|VariantValue=25.10.2012
+ParamDesignator11=C589
+ParamVariation12=ParameterName=Library Reference|VariantValue=CC0402_1UF_16V_10%_X5R
+ParamDesignator12=C589
+ParamVariation13=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator13=C589
+ParamVariation14=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.55mm
+ParamDesignator14=C589
+ParamVariation15=ParameterName=Manufacturer1 Example|VariantValue=TDK
+ParamDesignator15=C589
+ParamVariation16=ParameterName=Manufacturer1 Part Number|VariantValue=C1005X5R1C105KT
+ParamDesignator16=C589
+ParamVariation17=ParameterName=Manufacturer Part Number|VariantValue=CC0402_1UF_16V_10%_X5R
+ParamDesignator17=C589
+ParamVariation18=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator18=C589
+ParamVariation19=ParameterName=Part Description|VariantValue=SMD Multilayer Chip Ceramic Capacitor
+ParamDesignator19=C589
+ParamVariation20=ParameterName=Part Number|VariantValue=CC0402_1UF_16V_10%_X5R
+ParamDesignator20=C589
+ParamVariation21=ParameterName=PCB3D|VariantValue= 
+ParamDesignator21=C589
+ParamVariation22=ParameterName=Pin Count|VariantValue=2
+ParamDesignator22=C589
+ParamVariation23=ParameterName=Pin Info|VariantValue= 
+ParamDesignator23=C589
+ParamVariation24=ParameterName=Sense|VariantValue=No
+ParamDesignator24=C589
+ParamVariation25=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator25=C589
+ParamVariation26=ParameterName=Simulation|VariantValue= 
+ParamDesignator26=C589
+ParamVariation27=ParameterName=SMD|VariantValue=Yes
+ParamDesignator27=C589
+ParamVariation28=ParameterName=Socket|VariantValue=No
+ParamDesignator28=C589
+ParamVariation29=ParameterName=Status|VariantValue=Preferred
+ParamDesignator29=C589
+ParamVariation30=ParameterName=TC|VariantValue=X5R
+ParamDesignator30=C589
+ParamVariation31=ParameterName=Tolerance|VariantValue=±10%
+ParamDesignator31=C589
+ParamVariation32=ParameterName=Value|VariantValue=1uF
+ParamDesignator32=C589
+ParamVariation33=ParameterName=Voltage|VariantValue=16V
+ParamDesignator33=C589
+ParamVariationCount=33
 
 [SearchPath1]
 Path=..\Lib\*.*
@@ -1769,6 +1916,16 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
