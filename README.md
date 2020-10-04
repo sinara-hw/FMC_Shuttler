@@ -1,6 +1,6 @@
 # Shuttler
 
-16-channel 500MS/s 16bit DAC in FMC form factor.
+16-channel 125MS/s 16bit DAC in FMC form factor.
 
 ## Design Files
 
