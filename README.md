@@ -4,7 +4,7 @@
 
 ## Design Files
 
-Design files (schematics, PCB layouts, BOMs) can be found at [mirny/Releases](https://github.com/sinara-hw/Shuttler/releases).
+Design files (schematics, PCB layouts, BOMs) can be found at [Shuttler/Releases](https://github.com/sinara-hw/Shuttler/releases).
 
 ## Wiki
 
