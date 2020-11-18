@@ -347,7 +347,7 @@ FFmpegPixelFormat3=0
 FFmpegQuality3=80
 WmvVideoCodecName3=Windows Media Video V7
 WmvQuality3=80
-OutputFilePath4=D:\Dropbox\DESIGNS\FMC boards\FMC_DAC_125M_14B_16CHA\Shuttler\FMC_DAC_125M_14B_16CHA\Project Outputs for FMC_DAC_125M_14B_16CHA\FMC_ADC_10B_16CHA_TDC.PDF
+OutputFilePath4=D:\Dropbox\DESIGNS\FMC boards\FMC_DAC_125M_14B_16CHA\Shuttler\FMC_DAC_125M_14B_16CHA\Project Outputs for FMC_DAC_125M_14B_16CHA\FMC_DAC_125M_14B_16CHA.PDF
 ReleaseManaged4=0
 OutputBasePath4=Project Outputs for FMC_DAC_125M_14B_16CHA\
 OutputPathMedia4=
@@ -388,6 +388,6 @@ OpenIPCOutput2=0
 EnableReload2=0
 RelativeOutputPath3=
 OpenOutputs3=1
-RelativeOutputPath4=D:\Dropbox\DESIGNS\FMC boards\FMC_DAC_125M_14B_16CHA\Shuttler\FMC_DAC_125M_14B_16CHA\Project Outputs for FMC_DAC_125M_14B_16CHA\FMC_ADC_10B_16CHA_TDC.PDF
+RelativeOutputPath4=D:\Dropbox\DESIGNS\FMC boards\FMC_DAC_125M_14B_16CHA\Shuttler\FMC_DAC_125M_14B_16CHA\Project Outputs for FMC_DAC_125M_14B_16CHA\FMC_DAC_125M_14B_16CHA.PDF
 OpenOutputs4=1
 
