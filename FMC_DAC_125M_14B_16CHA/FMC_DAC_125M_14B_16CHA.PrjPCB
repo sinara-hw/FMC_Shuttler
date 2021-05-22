@@ -345,6 +345,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[ProjectVariant1]
+UniqueID=9598D10A-84CB-4179-8D2F-306B6E5E75D0
+Description=default
+AllowFabrication=0
+ParameterCount=0
+VariationCount=8
+Variation1=Designator=R68A|UniqueId=\QBBNAKLV\EOCDXUYF|Kind=1|AlternatePart= 
+Variation2=Designator=R68B|UniqueId=\LDQCXTIN\EOCDXUYF|Kind=1|AlternatePart= 
+Variation3=Designator=R68C|UniqueId=\VJXENAJT\EOCDXUYF|Kind=1|AlternatePart= 
+Variation4=Designator=R68D|UniqueId=\TXITYGIT\EOCDXUYF|Kind=1|AlternatePart= 
+Variation5=Designator=R68E|UniqueId=\JVQTBOWM\EOCDXUYF|Kind=1|AlternatePart= 
+Variation6=Designator=R68F|UniqueId=\NDENAITH\EOCDXUYF|Kind=1|AlternatePart= 
+Variation7=Designator=R68G|UniqueId=\FGFVSHMK\EOCDXUYF|Kind=1|AlternatePart= 
+Variation8=Designator=R68H|UniqueId=\OPZMVZXF\EOCDXUYF|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for FMC_DAC_125M_14B_16CHA\Design Rule Check - FMC_DAC_125M_14B_16CHA.html
 DItemRevisionGUID=
@@ -686,6 +702,12 @@ OutputName6=Script Output
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=Export Comments
+OutputName7=Export Comments
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -899,11 +921,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=AnsysEDB
-OutputName12=Ansys EDB
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
