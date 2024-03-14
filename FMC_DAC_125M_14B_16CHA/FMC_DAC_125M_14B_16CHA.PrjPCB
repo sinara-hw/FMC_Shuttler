@@ -32,6 +32,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
@@ -186,23 +187,6 @@ GenerateClassCluster=0
 DocumentUniqueId=WSFXXQDQ
 
 [Document9]
-DocumentPath=FMC_DAC_125M_14B_16CHA.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
 DocumentPath=FMC_DAC_125M_14B_16CHA.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JEWTSKIR
 
-[Document11]
+[Document10]
 DocumentPath=FMC_DAC_125M_14B_16CHA.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HGRZORMJ
 
-[Document12]
+[Document11]
 DocumentPath=SAS_Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=DAC_AFE.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=DACs.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=FMC connector.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +288,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=AFE_Buffer.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +305,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JBYTWLBS
 
-[Document17]
+[Document16]
 DocumentPath=References.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,7 +322,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SWLBRWIR
 
-[Document18]
+[Document17]
 DocumentPath=Sheet1.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -355,12 +339,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document18]
+DocumentPath=FMC_DAC_125M_14B_16CHA.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=9598D10A-84CB-4179-8D2F-306B6E5E75D0
 Description=default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=12
+VariationCount=14
 Variation1=Designator=R68A|UniqueId=\QBBNAKLV\EOCDXUYF|Kind=1|AlternatePart= 
 Variation2=Designator=R68B|UniqueId=\LDQCXTIN\EOCDXUYF|Kind=1|AlternatePart= 
 Variation3=Designator=R68C|UniqueId=\VJXENAJT\EOCDXUYF|Kind=1|AlternatePart= 
@@ -373,11 +374,13 @@ Variation9=Designator=R12|UniqueId=\EMGFQMIT\PYXLKEBM|Kind=1|AlternatePart=
 Variation10=Designator=R13|UniqueId=\EMGFQMIT\PDWFYUIC|Kind=1|AlternatePart= 
 Variation11=Designator=R55|UniqueId=\UUIGTDPE\QCGXJJWV|Kind=1|AlternatePart= 
 Variation12=Designator=R56|UniqueId=\UUIGTDPE\YCLKJYYC|Kind=1|AlternatePart= 
+Variation13=Designator=R70|UniqueId=\EMGFQMIT\FLOVROBA|Kind=1|AlternatePart= 
+Variation14=Designator=R71|UniqueId=\EMGFQMIT\MMUFKIYV|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for FMC_DAC_125M_14B_16CHA\Design Rule Check - FMC_DAC_125M_14B_16CHA.html
-DItemRevisionGUID=
+[Parameter1]
+Name=P_version
+Value=1.2
 
 [Configuration1]
 Name=Default Configuration
@@ -507,22 +510,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Brother DCP-L2540DN series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -607,6 +600,18 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=PCBDrawing
+OutputName15=Draftsman
+OutputDocumentPath15=
+OutputVariantName15=[No Variations]
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -969,38 +974,38 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=Web ReviewOutputName
-OutputName18=Web Review Data
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
@@ -1137,6 +1142,24 @@ Type117=1
 Type118=1
 Type119=1
 Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
+Type137=1
+Type138=1
 
 [Difference Levels]
 Type1=1
@@ -1207,6 +1230,12 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1328,6 +1357,7 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=0
 AlternateItemFail=3
 Type122=2
 Type123=1
@@ -1335,6 +1365,32 @@ Type124=1
 Type125=1
 Type126=1
 Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
+Type152=1
+Type153=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
