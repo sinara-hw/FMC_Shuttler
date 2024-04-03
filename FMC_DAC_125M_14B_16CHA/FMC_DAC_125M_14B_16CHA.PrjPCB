@@ -323,23 +323,6 @@ GenerateClassCluster=0
 DocumentUniqueId=SWLBRWIR
 
 [Document17]
-DocumentPath=Sheet1.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document18]
 DocumentPath=FMC_DAC_125M_14B_16CHA.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -361,7 +344,7 @@ UniqueID=9598D10A-84CB-4179-8D2F-306B6E5E75D0
 Description=default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=14
+VariationCount=15
 Variation1=Designator=R68A|UniqueId=\QBBNAKLV\EOCDXUYF|Kind=1|AlternatePart= 
 Variation2=Designator=R68B|UniqueId=\LDQCXTIN\EOCDXUYF|Kind=1|AlternatePart= 
 Variation3=Designator=R68C|UniqueId=\VJXENAJT\EOCDXUYF|Kind=1|AlternatePart= 
@@ -376,6 +359,7 @@ Variation11=Designator=R55|UniqueId=\UUIGTDPE\QCGXJJWV|Kind=1|AlternatePart=
 Variation12=Designator=R56|UniqueId=\UUIGTDPE\YCLKJYYC|Kind=1|AlternatePart= 
 Variation13=Designator=R70|UniqueId=\EMGFQMIT\FLOVROBA|Kind=1|AlternatePart= 
 Variation14=Designator=R71|UniqueId=\EMGFQMIT\MMUFKIYV|Kind=1|AlternatePart= 
+Variation15=Designator=R12|UniqueId=\UUIGTDPE\WFETIWOK|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -979,36 +963,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
