@@ -25,7 +25,7 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
-NewIndexingOfSheetSymbols=1
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -44,81 +44,14 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=default
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Shuttler_AFE.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=GTHULULJ
-
-[Document2]
-DocumentPath=Shuttler_AFE.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KHVNEYUM
-
-[Document3]
-DocumentPath=Shuttler_AFE_SAS_CON.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ILYPOAFD
-
-[Document4]
-DocumentPath=Shuttler_AFE_Channel.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PFZNZXVS
-
-[Document5]
-DocumentPath=AFE_CTRL_Logic.SchDoc
+DocumentPath=DAC_AFE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -132,10 +65,95 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=OPCRMRZE
+DocumentUniqueId=HNZVENGP
+
+[Document2]
+DocumentPath=EEPROM_Temp.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MQMSRJKC
+
+[Document3]
+DocumentPath=Clock_circuit.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=13
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JHNDAHND
+
+[Document4]
+DocumentPath=power_supply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NCIFFFOH
+
+[Document5]
+DocumentPath=FMC connector.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LRCFTRRP
 
 [Document6]
-DocumentPath=Shuttler_AFE_SAS_CON.Harness
+DocumentPath=DACs.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XEPNZODK
+
+[Document7]
+DocumentPath=Clock_circuit.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -151,31 +169,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
-DocumentPath=AFE_ADC.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QUOYSBGP
-
 [Document8]
-DocumentPath=AFE_Supply.SchDoc
+DocumentPath=SAS_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=5
+AnnotateOrder=11
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -183,10 +184,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=AKTFVZOJ
+DocumentUniqueId=WSFXXQDQ
 
 [Document9]
-DocumentPath=Shuttler_AFE.BomDoc
+DocumentPath=FMC_DAC_125M_14B_16CHA.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -203,7 +204,143 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=Shuttler_AFE_Channel.Harness
+DocumentPath=FMC_DAC_125M_14B_16CHA.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JEWTSKIR
+
+[Document11]
+DocumentPath=FMC_DAC_125M_14B_16CHA.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=12
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HGRZORMJ
+
+[Document12]
+DocumentPath=SAS_Connectors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=DAC_AFE.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document14]
+DocumentPath=DACs.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document15]
+DocumentPath=FMC connector.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document16]
+DocumentPath=AFE_Buffer.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=14
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JBYTWLBS
+
+[Document17]
+DocumentPath=References.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=15
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SWLBRWIR
+
+[Document18]
+DocumentPath=FMC_DAC_125M_14B_16CHA.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -220,27 +357,26 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [ProjectVariant1]
-UniqueID=71D26E0D-D57D-4D98-8A05-202178EA66EA
-Description=std
+UniqueID=9598D10A-84CB-4179-8D2F-306B6E5E75D0
+Description=default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=16
-Variation1=Designator=RL1A|UniqueId=\ADQOPDLC\EYNMQOKH|Kind=1|AlternatePart= 
-Variation2=Designator=RL2H|UniqueId=\BJFJUXTF\ZZUPGBZV|Kind=1|AlternatePart= 
-Variation3=Designator=RL2G|UniqueId=\IWJBLSMY\ZZUPGBZV|Kind=1|AlternatePart= 
-Variation4=Designator=RL2F|UniqueId=\ZRIZXEGN\ZZUPGBZV|Kind=1|AlternatePart= 
-Variation5=Designator=RL2E|UniqueId=\TMBXNHCI\ZZUPGBZV|Kind=1|AlternatePart= 
-Variation6=Designator=RL2D|UniqueId=\BAQVPBRT\ZZUPGBZV|Kind=1|AlternatePart= 
-Variation7=Designator=RL2C|UniqueId=\SMGGVKWK\ZZUPGBZV|Kind=1|AlternatePart= 
-Variation8=Designator=RL2B|UniqueId=\VSMVHIEG\ZZUPGBZV|Kind=1|AlternatePart= 
-Variation9=Designator=RL2A|UniqueId=\ADQOPDLC\ZZUPGBZV|Kind=1|AlternatePart= 
-Variation10=Designator=RL1H|UniqueId=\BJFJUXTF\EYNMQOKH|Kind=1|AlternatePart= 
-Variation11=Designator=RL1G|UniqueId=\IWJBLSMY\EYNMQOKH|Kind=1|AlternatePart= 
-Variation12=Designator=RL1F|UniqueId=\ZRIZXEGN\EYNMQOKH|Kind=1|AlternatePart= 
-Variation13=Designator=RL1E|UniqueId=\TMBXNHCI\EYNMQOKH|Kind=1|AlternatePart= 
-Variation14=Designator=RL1D|UniqueId=\BAQVPBRT\EYNMQOKH|Kind=1|AlternatePart= 
-Variation15=Designator=RL1C|UniqueId=\SMGGVKWK\EYNMQOKH|Kind=1|AlternatePart= 
-Variation16=Designator=RL1B|UniqueId=\VSMVHIEG\EYNMQOKH|Kind=1|AlternatePart= 
+VariationCount=15
+Variation1=Designator=R68A|UniqueId=\QBBNAKLV\EOCDXUYF|Kind=1|AlternatePart= 
+Variation2=Designator=R68B|UniqueId=\LDQCXTIN\EOCDXUYF|Kind=1|AlternatePart= 
+Variation3=Designator=R68C|UniqueId=\VJXENAJT\EOCDXUYF|Kind=1|AlternatePart= 
+Variation4=Designator=R68D|UniqueId=\TXITYGIT\EOCDXUYF|Kind=1|AlternatePart= 
+Variation5=Designator=R68E|UniqueId=\JVQTBOWM\EOCDXUYF|Kind=1|AlternatePart= 
+Variation6=Designator=R68F|UniqueId=\NDENAITH\EOCDXUYF|Kind=1|AlternatePart= 
+Variation7=Designator=R68G|UniqueId=\FGFVSHMK\EOCDXUYF|Kind=1|AlternatePart= 
+Variation8=Designator=R68H|UniqueId=\OPZMVZXF\EOCDXUYF|Kind=1|AlternatePart= 
+Variation9=Designator=R12|UniqueId=\EMGFQMIT\PYXLKEBM|Kind=1|AlternatePart= 
+Variation10=Designator=R13|UniqueId=\EMGFQMIT\PDWFYUIC|Kind=1|AlternatePart= 
+Variation11=Designator=R55|UniqueId=\UUIGTDPE\QCGXJJWV|Kind=1|AlternatePart= 
+Variation12=Designator=R56|UniqueId=\UUIGTDPE\YCLKJYYC|Kind=1|AlternatePart= 
+Variation13=Designator=R70|UniqueId=\EMGFQMIT\FLOVROBA|Kind=1|AlternatePart= 
+Variation14=Designator=R71|UniqueId=\EMGFQMIT\MMUFKIYV|Kind=1|AlternatePart= 
+Variation15=Designator=R12|UniqueId=\UUIGTDPE\WFETIWOK|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -273,7 +409,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=EDIF
 OutputName1=EDIF for PCB
@@ -481,7 +617,7 @@ PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -503,7 +639,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -575,7 +711,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -608,14 +744,14 @@ OutputName6=Script Output
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=BOM_ReportCompare
-OutputName7=BOM Compare
+OutputType7=Export Comments
+OutputName7=Export Comments
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=Export Comments
-OutputName8=Export Comments
+OutputType8=BOM_ReportCompare
+OutputName8=BOM Compare
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
@@ -630,7 +766,7 @@ PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -738,7 +874,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -782,7 +918,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -848,7 +984,7 @@ OutputDefault12=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1082,7 +1218,7 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=0
+Type10=1
 Type11=2
 Type12=0
 Type13=0
@@ -1266,10 +1402,22 @@ NetClassManualEnabled=0
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Capacitors.DbLib/Capacitors SMD
+ComponentDesignItemID0=CTE3216-18_100UF_6.3V_20%_ESR0500_AVX_TLJ
+ComponentSymbolReference0=Capacitor - polarized
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Resistors.DbLib/Resistors SMD
+ComponentDesignItemID1=R0603_105R_0.1%_0.063W_10PPM
+ComponentSymbolReference1=Resistor - 0.1%
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1283,6 +1431,76 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Author
+ParameterUpdate0=1
+ParameterName1=Case
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=Component Type
+ParameterUpdate4=1
+ParameterName5=ComponentHeight
+ParameterUpdate5=1
+ParameterName6=CreateDate
+ParameterUpdate6=1
+ParameterName7=Description
+ParameterUpdate7=1
+ParameterName8=Footprint
+ParameterUpdate8=1
+ParameterName9=HelpURL
+ParameterUpdate9=1
+ParameterName10=LatestRevisionDate
+ParameterUpdate10=1
+ParameterName11=Library Reference
+ParameterUpdate11=1
+ParameterName12=Manufacturer
+ParameterUpdate12=1
+ParameterName13=Manufacturer Part Number
+ParameterUpdate13=1
+ParameterName14=Manufacturer1 ComponentHeight
+ParameterUpdate14=1
+ParameterName15=Manufacturer1 Example
+ParameterUpdate15=1
+ParameterName16=Manufacturer1 Part Number
+ParameterUpdate16=1
+ParameterName17=Mounted
+ParameterUpdate17=1
+ParameterName18=Part Description
+ParameterUpdate18=1
+ParameterName19=Part Number
+ParameterUpdate19=1
+ParameterName20=Pin Count
+ParameterUpdate20=1
+ParameterName21=Power
+ParameterUpdate21=1
+ParameterName22=PressFit
+ParameterUpdate22=1
+ParameterName23=Sense
+ParameterUpdate23=1
+ParameterName24=SMD
+ParameterUpdate24=1
+ParameterName25=Socket
+ParameterUpdate25=1
+ParameterName26=Status
+ParameterUpdate26=1
+ParameterName27=TC
+ParameterUpdate27=1
+ParameterName28=Tolerance
+ParameterUpdate28=1
+ParameterName29=Value
+ParameterUpdate29=1
+ParameterName30=Voltage
+ParameterUpdate30=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=CAPMP3216X180N
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=RESC1608X55N
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
